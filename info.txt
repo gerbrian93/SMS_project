@@ -1,0 +1,34 @@
+Basic info: 
+   Student_id
+   f_name
+   l_name
+   date_of_birth
+   gender
+   address
+   phone_number
+   email
+   photo
+
+Academic details
+   enrollment_date
+   graduation_date
+   major
+   current_gpa
+   transcripts
+
+Admin details
+   status 
+   fees_due
+   fees_paid
+   enrollment_type
+
+Extracurricular activities
+   clubs 
+   sports
+   awards
+   
+Other Relevant details
+   emergency_contact
+   medical_info
+   guardian_info
+   advisor
