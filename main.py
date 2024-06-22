@@ -133,4 +133,4 @@ while running:
     elif entry == "6":
         getStudents(studentlist)
     else:
-        print("Try again")
+        print("Try again please")
