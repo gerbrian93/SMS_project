@@ -4,8 +4,6 @@ import os
 from student import Student
 
 
-
-
 def getStudents() -> None:
     searchby = input(
         "What are you searching by?\noptions: firstname - lastname - dob - gender "
@@ -45,8 +43,8 @@ def printlist(list):
         print(str(student) + "\n")
 
 
-import csv
-import os
+# import csv
+# import os
 
 
 def deleteByIdOrName(students_list):
@@ -118,7 +116,7 @@ readCsvFile()
 running = True
 while running:
     entry = input(
-        "| 1: Create User | 2: Print List | 3: Delete User | 4: Change Name | 5: Exit |\n"
+        "| 1: Create User | 2: Print List | 3: Delete User | 4: Change Name | 5: Quit |\n"
     )
 
     if entry == "1":
